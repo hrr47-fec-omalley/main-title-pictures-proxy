@@ -1,6 +1,10 @@
-# MYKEA
+# MyKEA
 
-> IKEA clone
+> Furniture Platform Main Product Page
+
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
+
 
 ## Related Projects
 
@@ -12,19 +16,22 @@
 ## Table of Contents
 
 1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+2. [Requirements](#requirements)
+3. [Development](#development)
 
 ## Usage
 
-> Some usage instructions
+> Example url:
+> http://localhost:3000/1
+
+> `npm run build` builds webpack and watch files.
+> `npm run server` starts server.
 
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
-- Node 6.13.0
-- etc
+- Node 12.18.2
 
 ## Development
 
@@ -33,7 +40,17 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
+Installing for production:
+```sh
+npm install --production
+```
+
+## Team O'Malley
+
+| <a href="https://github.com/mhpicel" target="_blank">**Team O'Malley**</a> | <a href="https://github.com/hewbahrami" target="_blank">**Team O'Malley**</a> |
+| :---: |:---:|
+| [![Mark Picel](https://avatars0.githubusercontent.com/u/25255730?s=200)](https://github.com/mhpicel)    | [![Hewah Bahrami](https://avatars1.githubusercontent.com/u/47835764?s=200)](https://github.com/hewbahrami) |
+| <a href="https://github.com/mhpicel" target="_blank">`github.com/mhpicel`</a> | <a href="https://github.com/hewbahrami" target="_blank">`github.com/hewbahrami`</a> |
